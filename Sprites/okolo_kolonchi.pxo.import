@@ -1,0 +1,13 @@
+[remap]
+
+importer="com.technohacker.pixelorama"
+type="StreamTexture"
+path="res://.import/okolo_kolonchi.pxo-ab59d64eb46a4f44243f5b646748cbf6.stex"
+
+[deps]
+
+source_file="res://Sprites/okolo_kolonchi.pxo"
+dest_files=[ "res://.import/okolo_kolonchi.pxo-ab59d64eb46a4f44243f5b646748cbf6.stex" ]
+
+[params]
+

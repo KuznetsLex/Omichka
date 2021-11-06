@@ -1,0 +1,13 @@
+[remap]
+
+importer="com.technohacker.pixelorama"
+type="StreamTexture"
+path="res://.import/fonovka_les_pxo.pxo-fc34a1937623a6e005eee944de6f45d7.stex"
+
+[deps]
+
+source_file="res://Sprites/fonovka_les_pxo.pxo"
+dest_files=[ "res://.import/fonovka_les_pxo.pxo-fc34a1937623a6e005eee944de6f45d7.stex" ]
+
+[params]
+

@@ -1,0 +1,13 @@
+[remap]
+
+importer="com.technohacker.pixelorama"
+type="StreamTexture"
+path="res://.import/domik_pxo_pxo.pxo-092ff982915c0d09d2937716273afe21.stex"
+
+[deps]
+
+source_file="res://Sprites/domik_pxo_pxo.pxo"
+dest_files=[ "res://.import/domik_pxo_pxo.pxo-092ff982915c0d09d2937716273afe21.stex" ]
+
+[params]
+

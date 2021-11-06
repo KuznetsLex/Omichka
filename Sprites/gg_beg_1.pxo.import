@@ -1,0 +1,13 @@
+[remap]
+
+importer="com.technohacker.pixelorama"
+type="StreamTexture"
+path="res://.import/gg_beg_1.pxo-4b4b42d3f288ddaa2855251d20adc747.stex"
+
+[deps]
+
+source_file="res://Sprites/gg_beg_1.pxo"
+dest_files=[ "res://.import/gg_beg_1.pxo-4b4b42d3f288ddaa2855251d20adc747.stex" ]
+
+[params]
+
