@@ -1,0 +1,13 @@
+[remap]
+
+importer="com.technohacker.pixelorama"
+type="StreamTexture"
+path="res://.import/ded_pxo.pxo-3d0ea6f95a0717fb185640b439f3aa79.stex"
+
+[deps]
+
+source_file="res://Sprites/ded_pxo.pxo"
+dest_files=[ "res://.import/ded_pxo.pxo-3d0ea6f95a0717fb185640b439f3aa79.stex" ]
+
+[params]
+

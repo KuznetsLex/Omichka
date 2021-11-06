@@ -1,0 +1,13 @@
+[remap]
+
+importer="com.technohacker.pixelorama"
+type="StreamTexture"
+path="res://.import/gg_stoit.pxo-b8fdb0048ed68d24b78312236af168d5.stex"
+
+[deps]
+
+source_file="res://Sprites/gg_stoit.pxo"
+dest_files=[ "res://.import/gg_stoit.pxo-b8fdb0048ed68d24b78312236af168d5.stex" ]
+
+[params]
+
