@@ -1,0 +1,49 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Sprites/fonovka_les_pxo.pxo" type="Texture" id=1]
+[ext_resource path="res://Sprites/domik_pxo_pxo.pxo" type="Texture" id=2]
+[ext_resource path="res://TextureButton.gd" type="Script" id=3]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 640.367, 114.007 )
+
+[sub_resource type="SegmentShape2D" id=2]
+a = Vector2( 48.1691, 317.052 )
+b = Vector2( 47.2197, -172.215 )
+
+[sub_resource type="SegmentShape2D" id=3]
+a = Vector2( 1277.86, 491.625 )
+b = Vector2( 1278.57, 1.42017 )
+
+[node name="Platform" type="StaticBody2D"]
+
+[node name="fonovka_les_pxo" type="Sprite" parent="."]
+scale = Vector2( 9.97917, 9.69289 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="domik_pxo_pxo" type="Sprite" parent="fonovka_les_pxo"]
+position = Vector2( 34.5202, 37.7319 )
+scale = Vector2( 0.360997, 0.360997 )
+texture = ExtResource( 2 )
+
+[node name="TextureButton" type="TextureButton" parent="fonovka_les_pxo/domik_pxo_pxo"]
+margin_left = -27.0
+margin_top = -21.0
+margin_right = -4.0
+margin_bottom = 32.0
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 637.871, 605.316 )
+shape = SubResource( 1 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2( -46.6691, 173.948 )
+shape = SubResource( 2 )
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="."]
+shape = SubResource( 3 )

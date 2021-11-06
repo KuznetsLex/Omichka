@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Player.gd" type="Script" id=2]
+
+[sub_resource type="StreamTexture" id=1]
+load_path = "res://.import/gg_beg_1.pxo-4b4b42d3f288ddaa2855251d20adc747.stex"
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 61.7603, 67.2468 )
+
+[node name="Player" type="KinematicBody2D"]
+position = Vector2( -2, 0 )
+script = ExtResource( 2 )
+
+[node name="player" type="Sprite" parent="."]
+position = Vector2( 83.1548, 83.1548 )
+scale = Vector2( 2.94259, 2.94259 )
+texture = SubResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 71.5983, 94.9417 )
+shape = SubResource( 2 )
